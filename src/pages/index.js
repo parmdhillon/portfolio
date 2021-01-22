@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import HomeScreen from '../screens/HomeScreen';
+import HomeScreen from '../screens/HomeScreen/HomeScreen';
 
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
     <Head>
     <title>Parminder Singh - Front End Developer</title>
     </Head>
-    
+
       <HomeScreen />
     </>
   );
