@@ -17,12 +17,12 @@ const ProjectScreen = () => {
           for a grocery store
         </Project>
         <Project
-          name="Shortly"
-          image="/img/projects/shortly.png"
+          name="Kirat Tour & Travels"
+          image="/img/projects/kiratTours.png"
           link="mystall"
         >
-          A URL Shortening service, based on third party API, built with
-          vanillaJS.
+          Website of a Cab service in India, based on Serverless Functions and
+          NextJS
         </Project>
       </div>
     </div>

@@ -7,9 +7,14 @@ const Project = ({ name, image, link, children }) => {
       <div className="w-full h-64 md:h-72 lg:h-80 xl:h-96 rounded-xl overflow-hidden">
         <ImageX url={image} />
       </div>
-      <span className="block pt-6 pb-4 font-extrabold text-2xl">{name}</span>
+      <span className="block pt-6 pb-4 font-extrabold text-2xl text-gray-700">
+        {name}
+      </span>
       <p className="text-gray-400 w-full md:w-9/12">{children}</p>
-      <a href="#" className="py-4 text-blue-700 underline block font-bold">
+      <a
+        href="#"
+        className="my-4 py-2 px-4 text-blue-700 bg-blue-100 rounded-xl text-center block md:inline-block font-extrabold hover:bg-blue-700 hover:text-white transition-all duration-300"
+      >
         View Project
       </a>
     </div>

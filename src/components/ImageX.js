@@ -12,7 +12,7 @@ const ImageX = ({ url }) => {
         placeholder={({ ref }) => (
           <div className="w-full h-full bg-gray-600 gradient" ref={ref} />
         )}
-        debounceDurationMs="2000"
+        debounceDurationMs="400"
         error={() => (
           <div className="bg-light-red h-100 w-100">
             <p>There was an error fetching this image :(</p>
