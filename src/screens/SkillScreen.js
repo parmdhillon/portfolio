@@ -4,15 +4,15 @@ import Skill from '../components/Skill';
 const SkillScreen = () => {
   return (
     <>
-      <div className="my-20">
+      <div className="mt-20 mb-14">
         <div className="w-full h-56 bg-blue-700 text-center py-8">
           <span className="block text-white text-3xl font-bold">my skills</span>
           <span className="block text-white py-2">
             clean design & code, that what I love to do.
           </span>
         </div>
-        <div className="relative -mt-24 w-11/12 md:w-4/5 max-w-7xl rounded-2xl bg-white shadow-2xl border border-gray-200 skillset">
-          <div class="w-full flex flex-wrap m-auto py-4 px-2">
+        <div className="relative -mt-24 w-11/12 md:w-4/5 max-w-7xl rounded-2xl bg-white shadow border border-gray-200 skillset">
+          <div className="w-full flex flex-wrap m-auto py-4">
             <Skill img="js.svg">JavaScript</Skill>
             <Skill img="react.png">React</Skill>
             <Skill img="html.png">HTML</Skill>

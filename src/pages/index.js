@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import AboutScreen from '../screens/AboutScreen';
 import HomeScreen from '../screens/HomeScreen/HomeScreen';
+import ProjectScreen from '../screens/ProjectScreen';
 import SkillScreen from '../screens/SkillScreen';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <HomeScreen />
       <AboutScreen />
       <SkillScreen />
+      <ProjectScreen />
     </>
   );
 }

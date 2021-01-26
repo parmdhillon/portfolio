@@ -12,14 +12,13 @@ const AboutScreen = () => {
       </div>
       <div className="flex-1 max-w-2xl text-xl text-gray-700 pt-10 md:pt-0">
         <p className="p">
-          I'm <b>Parminder Singh</b>, 25 year-old passionate developer, who
-          loves to bring ideas to life with design & code.
+          I'm <b>Parminder Singh</b>, a passionate developer with 6 years of
+          experience, who loves to bring ideas to life with design & code.
         </p>
         <p className="pt-4">
-          I have gained various skills in the past 6 years from college and on
-          my own, that allows me to build and design beautiful and highly
-          responsive websites. I'm naturally curious and perpetually working on
-          polishing my skillset.
+          I have worked on a wide range of projects, such as, E-Commerce, Highly
+          Responsive Website, API development/integration, etc... I am a great
+          team player, eager to learn, and always up for a new challenge!
         </p>
       </div>
     </div>
