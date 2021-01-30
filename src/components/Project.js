@@ -13,7 +13,7 @@ const Project = ({ name, image, link, children }) => {
       </span>
       <p className="text-gray-400 w-full md:w-9/12">{children}</p>
       <Link href={link}>
-        <a className="my-4 py-2 px-4 text-blue-700 bg-blue-100 rounded-xl text-center block md:inline-block font-extrabold hover:bg-blue-700 hover:text-white transition-all duration-300">
+        <a className="my-4 py-2 px-4 text-blue-700 bg-blue-100 rounded-xl text-center block md:inline-block font-extrabold hover:bg-blue-700 hover:text-white transform hover:scale-105 duration-300">
           View Project
         </a>
       </Link>

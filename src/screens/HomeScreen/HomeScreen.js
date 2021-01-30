@@ -22,7 +22,7 @@ const HomeScreen = () => {
         <div className="mt-10">
           <a
             href="#"
-            className="py-4 px-8 bg-blue-700 font-bold text-white rounded-2xl hover:bg-blue-500"
+            className="py-4 px-8 bg-blue-700 font-bold text-white rounded-2xl hover:bg-blue-500 transform hover:scale-105 duration-300 inline-block"
           >
             view my work
           </a>
