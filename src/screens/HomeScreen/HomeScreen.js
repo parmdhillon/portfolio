@@ -1,12 +1,11 @@
 import React from 'react';
+import Logo from '../../components/Logo';
 import styles from './HomeScreen.module.css';
 
 const HomeScreen = () => {
   return (
     <div className="m-auto w-full h-screen relative overflow-hidden py-5 px-5 lg:px-10 flex justify-start items-start md:items-center">
-      <div className="z-10 absolute bg-blue-700 rounded-2xl p-3 text-white font-extrabold text-3xl top-5 left-5 lg:left-10">
-        ps.
-      </div>
+      <Logo />
 
       <main className="my-4">
         <div className={styles.fix}></div>

@@ -16,8 +16,8 @@ const AboutScreen = () => {
           experience, who loves to bring ideas to life with design & code.
         </p>
         <p className="pt-4">
-          I have worked on a wide range of projects, such as, E-Commerce, Highly
-          Responsive Website, API development/integration, etc... I am a great
+          I have worked on a wide range of projects, such as, E-Commerce,
+          Responsive websites, API development/integration, etc... I am a great
           team player, eager to learn, and always up for a new challenge!
         </p>
       </div>
