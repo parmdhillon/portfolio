@@ -3,9 +3,9 @@ import MyStallScreen from '../../screens/Projects/MyStallScreen';
 
 const mystall = () => {
   return (
-    <>
+    <div className="openup">
       <MyStallScreen />
-    </>
+    </div>
   );
 };
 

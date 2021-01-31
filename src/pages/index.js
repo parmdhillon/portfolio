@@ -6,7 +6,7 @@ import SkillScreen from '../screens/SkillScreen';
 
 export default function Home() {
   return (
-    <>
+    <div className="openup">
       <Head>
         <title>Parminder Singh - Front End Developer</title>
       </Head>
@@ -15,6 +15,6 @@ export default function Home() {
       <AboutScreen />
       <SkillScreen />
       <ProjectScreen />
-    </>
+    </div>
   );
 }

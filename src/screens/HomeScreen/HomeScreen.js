@@ -3,6 +3,11 @@ import Logo from '../../components/Logo';
 import styles from './HomeScreen.module.css';
 
 const HomeScreen = () => {
+  const scrollTo = (section) => {
+    document.querySelector(`#${section}`).scrollIntoView({
+      behavior: 'smooth',
+    });
+  };
   return (
     <div className="m-auto w-full h-screen relative overflow-hidden py-5 px-5 lg:px-10 flex justify-start items-start md:items-center">
       <Logo />
@@ -20,12 +25,14 @@ const HomeScreen = () => {
           </div>
         </div>
         <div className="mt-10">
-          <a
-            href="#"
-            className="py-4 px-8 bg-blue-700 font-bold text-white rounded-2xl hover:bg-blue-500 transform hover:scale-105 duration-300 inline-block"
+          <button
+            onClick={() => {
+              scrollTo('projects');
+            }}
+            className="py-4 px-8 bg-blue-700 font-bold text-white rounded-2xl hover:bg-blue-500 transform hover:scale-105 duration-300 inline-block focus:outline-none"
           >
             view my work
-          </a>
+          </button>
         </div>
       </main>
 
