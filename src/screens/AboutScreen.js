@@ -7,7 +7,7 @@ const AboutScreen = () => {
         <img
           src="/img/memoji_parm.png"
           alt="Parminder Singh's Memoji"
-          className="w-1/2 md:w-48 md:h-48"
+          className="w-1/2 md:w-48 md:h-48 transform duration-300 hover:scale-105"
         />
       </div>
       <div className="flex-1 max-w-2xl text-xl text-gray-700 pt-10 md:pt-0">

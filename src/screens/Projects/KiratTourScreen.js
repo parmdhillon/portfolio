@@ -15,7 +15,7 @@ const KiratTourScreen = () => {
         <ProjectHeader />
 
         <div className="py-7">
-          <h1 className="text-blue-700 font-extrabold text-3xl my-7">
+          <h1 className="text-blue-700 font-extrabold text-3xl my-7 slideup">
             Kirat Tour & Travels
           </h1>
           <p className="w-full my-7 lg:w-9/12 text-gray-600 font-medium leading-7 tracking-wide">
