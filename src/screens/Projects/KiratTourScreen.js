@@ -36,7 +36,7 @@ const KiratTourScreen = () => {
             <div className="font-bold text-lg text-gray-600 py-2">LIVE</div>
             <div className="py-2">
               <a
-                href="https://kirattours.com/"
+                href="https://kirattours.vercel.app"
                 target="_blank"
                 className="bg-blue-700 py-2 px-4 font-bold text-white rounded-lg transform hover:scale-105 duration-300 inline-block hover:bg-blue-600"
               >
